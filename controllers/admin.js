@@ -16,7 +16,7 @@ const { check, validationResult } = require('express-validator');
 //controllers for admin, shopOwner and customer
 
 module.exports = {
-    //admin controllers
+    //read all admins
     getAdmins: async (req, res) => {
         try {
             const admins = await AdminSchema.find();
@@ -26,6 +26,7 @@ module.exports = {
             res.status(500).send('Server Error');
         }
     },
+        //read one admin, by id
     getAdmin: async (req, res) => {
         try {
             const admin = await AdminSchema.findById(req.params.id);
@@ -38,6 +39,8 @@ module.exports = {
             res.status(500).send('Server Error');
         }
     },
+
+    //create 
     createAdmin: async (req, res) => {
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
@@ -80,6 +83,7 @@ module.exports = {
             res.status(500).send('Server Error');
         }
     },
+    //update
     updateAdmin: async (req, res) => {
         const { name, email, phone, password, role } = req.body;
         const adminFields = {};
@@ -105,6 +109,7 @@ module.exports = {
             res.status(500).send('Server Error');
         }
     },
+    //delete
     deleteAdmin: async (req, res) => {
         try {
             let admin = await AdminSchema.findById(req.params.id);

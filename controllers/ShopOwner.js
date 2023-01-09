@@ -17,7 +17,7 @@ const { check, validationResult } = require('express-validator');
 //controllers for admin, shopOwner and customer
 
 module.exports = {
-    //shopOwner controllers
+    //read all shop owners
     getShopOwners: async (req, res) => {
         try {
             const shopOwners = await ShopOwnerSchema.find();
@@ -27,6 +27,7 @@ module.exports = {
             res.status(500).send('Server Error');
         }
     },
+    //read one by id
     getShopOwner: async (req, res) => {
         try {
             const shopOwner = await ShopOwnerSchema.findById(req.params.id);
@@ -39,6 +40,7 @@ module.exports = {
             res.status(500).send('Server Error');
         }
     },
+    //create
     createShopOwner: async (req, res) => {
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
@@ -85,6 +87,7 @@ module.exports = {
             res.status(500).send('Server Error');
         }
     },
+    //update
     updateShopOwner: async (req, res) => {
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
@@ -112,7 +115,22 @@ module.exports = {
             console.error(err.message);
             res.status(500).send('Server Error');
         }
-    }
+    },
+    //delete
+    deleteShopOwner: async (req, res) => {
+        try {
+            let shopOwner = await ShopOwnerSchema.findById(req.params.id);
+            if (!shopOwner) {
+                return res.status(404).json({ msg: 'Shop Owner not found' });
+            }
+            await ShopOwnerSchema.findByIdAndRemove(req.params.id);
+            res.json({ msg: 'Shop Owner removed' });
+        } catch (err) {
+            console.error(err.message);
+            res.status(500).send('Server Error');
+        }
+    },
+    
 };
 
 
