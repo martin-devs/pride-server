@@ -7,15 +7,6 @@ const bcrypt = require('bcryptjs');
 //import jsonwebtoken
 const jwt = require('jsonwebtoken');
 
-//import config
-const config = require('config');
-
-//import express validator
-
-const { check, validationResult } = require('express-validator');
-
-//controllers for admin, shopOwner and customer
-
 module.exports = {
     //read all shop owners
     getShopOwners: async (req, res) => {
@@ -42,11 +33,8 @@ module.exports = {
     },
     //create
     createShopOwner: async (req, res) => {
-        const errors = validationResult(req);
-        if (!errors.isEmpty()) {
-            return res.status(400).json({ errors: errors.array() });
-        }
-        const { name, email, phone, password, role } = req.body;
+
+        const { name, email, phone, password, role, shopName , shopId} = req.body;
         try {
             let shopOwner = await ShopOwnerSchema.findOne({
                 email: email
@@ -61,11 +49,16 @@ module.exports = {
                 email,
                 phone,
                 password,
-                role
+                role,
+                shopName,
+                shopId
             });
             const salt = await bcrypt.genSalt(10);
             shopOwner.password = await bcrypt.hash(password, salt);
             await shopOwner.save();
+            res.json(shopOwner);
+
+            /*
             const payload = {
                 shopOwner: {
                     id: shopOwner.id
@@ -82,6 +75,7 @@ module.exports = {
                     res.json({ token });
                 }
             );
+            */
         } catch (err) {
             console.error(err.message);
             res.status(500).send('Server Error');
@@ -89,10 +83,7 @@ module.exports = {
     },
     //update
     updateShopOwner: async (req, res) => {
-        const errors = validationResult(req);
-        if (!errors.isEmpty()) {
-            return res.status(400).json({ errors: errors.array() });
-        }
+
         const { name, email, phone, password, role } = req.body;
         const shopOwnerFields = {};
         if (name) shopOwnerFields.name = name;

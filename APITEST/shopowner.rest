@@ -1,0 +1,41 @@
+##CREATE SHOP OWNER
+POST http://localhost:8080/users/shopOwner
+Content-Type: application/json
+
+{
+    "name": "shopOwner2",
+    "password": "admin",
+    "email": "shopOwner2@pride.com",
+    "role": "SHOPOWNER",
+    "phone": "254742734120",
+    "shopName": "SHOP 0",
+    "shopId": "63bc46be2ad9bde9f00b06e4"
+
+}
+
+###
+##GET ONE, BY ID
+GET http://localhost:8080/users/shopOwner/63bc4bb521d5b18a03e87a9e
+
+###
+##GET ALL
+GET http://localhost:8080/users/shopOwner
+
+###
+##UPDATE
+PUT http://localhost:8080/users/shopOwner/63bc4bb521d5b18a03e87a9e
+Content-Type: application/json
+
+{
+    "name": "shopOwnerUpdated",
+    "password": "shopOwner",
+    "email": "shopOwner2@pride.com",
+    "role": "shopOwner",
+    "phone": "254742734120"
+}
+    
+
+
+###
+##DELETE
+DELETE http://localhost:8080/users/shopOwner/63bc493e9efac0ebccacf7e5

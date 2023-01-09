@@ -1,6 +1,27 @@
 //products route
 const express = require('express');
 const router = express.Router();
+const { createAdmin,
+    getAdmins,
+    getAdmin,
+    updateAdmin,
+    deleteAdmin,
+} = require('../controllers/admin');
+
+
+const { createCustomer,
+    getCustomers,
+    getCustomer,
+    updateCustomer,
+    deleteCustomer,
+} = require('../controllers/customer');
+
+const { createShopOwner,
+    getShopOwners,
+    getShopOwner,
+    updateShopOwner,
+    deleteShopOwner,
+} = require('../controllers/shopOwner');
 
 //admin
 router.post('/admin', createAdmin);
@@ -22,3 +43,5 @@ router.get('/shopOwner', getShopOwners);
 router.get('/shopOwner/:id', getShopOwner);
 router.put('/shopOwner/:id', updateShopOwner);
 router.delete('/shopOwner/:id', deleteShopOwner);
+
+module.exports = router;

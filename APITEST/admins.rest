@@ -1,0 +1,40 @@
+##CREATE ADMIN
+POST http://localhost:8080/users/admin
+Content-Type: application/json
+
+{
+    "name": "admin3",
+    "password": "admin",
+    "email": "admin2@pride.com",
+    "role": "ADMIN",
+    "phone": "254742734120"
+
+}
+
+###
+##GET ONE, BY ID
+GET http://localhost:8080/users/admin/63bc46be2ad9bde9f00b06e4
+
+###
+##GET ALL
+GET http://localhost:8080/users/admin
+
+###
+##UPDATE
+PUT http://localhost:8080/users/admin/63bc46be2ad9bde9f00b06e4
+Content-Type: application/json
+
+{
+    "name": "adminUpdated",
+    "password": "admin",
+    "email": "admin2@pride.com",
+    "role": "ADMIN",
+    "phone": "254742734120"
+}
+    
+
+
+###
+##DELETE
+DELETE http://localhost:8080/users/admin/63bc493e9efac0ebccacf7e5
+

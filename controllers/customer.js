@@ -1,5 +1,5 @@
 //customer contollers
-const CustomerSchema = require('../models/customer');
+const CustomerSchema = require('../models/Customer');
 
 //import bcrypt
 const bcrypt = require('bcryptjs');
@@ -7,12 +7,6 @@ const bcrypt = require('bcryptjs');
 //import jsonwebtoken
 const jwt = require('jsonwebtoken');
 
-//import config
-const config = require('config');
-
-//import express validator
-
-const { check, validationResult } = require('express-validator');
 
 //controllers for customer
 
@@ -42,10 +36,6 @@ module.exports = {
     },
     //create
     createCustomer: async (req, res) => {
-        const errors = validationResult(req);
-        if (!errors.isEmpty()) {
-            return res.status(400).json({ errors: errors.array() });
-        }
         const { name, email, phone, password, role } = req.body;
         try {
             let customer = await Customer

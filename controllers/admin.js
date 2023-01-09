@@ -6,12 +6,7 @@ const bcrypt = require('bcryptjs');
 //import jsonwebtoken
 const jwt = require('jsonwebtoken');
 
-//import config
-const config = require('config');
 
-//import express validator
-
-const { check, validationResult } = require('express-validator');
 
 //controllers for admin, shopOwner and customer
 
@@ -42,10 +37,6 @@ module.exports = {
 
     //create 
     createAdmin: async (req, res) => {
-        const errors = validationResult(req);
-        if (!errors.isEmpty()) {
-            return res.status(400).json({ errors: errors.array() });
-        }
         const { name, email, phone, password, role } = req.body;
         try {
             let admin = await AdminSchema.findOne({ email: email });
@@ -62,11 +53,15 @@ module.exports = {
             const salt = await bcrypt.genSalt(10);
             admin.password = await bcrypt.hash(password, salt);
             await admin.save();
+            res.json(admin);
+             /*
+             //SIGNING THE TOKEN
             const payload = {
                 admin: {
                     id: admin.id
                 }
             };
+           
             jwt.sign(
                 payload,
                 config.get('jwtSecret'),
@@ -78,6 +73,7 @@ module.exports = {
                     res.json({ token });
                 }
             );
+            */
         } catch (err) {
             console.error(err.message);
             res.status(500).send('Server Error');

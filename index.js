@@ -10,9 +10,6 @@ const { connectDB } = require('./config/config');
 
 connectDB();
 
-//import products route
-const productsRoute = require('./routes/products');
-
 
 //Create an instance of the Express app
 const app = express();
@@ -23,9 +20,13 @@ app.use(cors());
 //Enable JSON parsing by using the body-parser middleware
 app.use(bodyParser.json());
 
+//users route
+app.use('/users', require('./routes/users'));
 
-//use products route
-app.use('/products', productsRoute);
+
+
+//products route
+app.use('/products', require('./routes/products'));
 
 //get default route
 app.get('/', (req, res) => {
