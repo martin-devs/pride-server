@@ -36,10 +36,9 @@ module.exports = {
     },
     //create
     createCustomer: async (req, res) => {
-        const { name, email, phone, password, role } = req.body;
+        const { name, email, phone, password, role, deliveryLocation, mpesaNumber } = req.body;
         try {
-            let customer = await Customer
-                .findOne({ email: email
+            let customer = await CustomerSchema.findOne({ email: email
                 });
             if (customer) {
                 return res.status(400).json({ msg: 'Customer already exists' });
@@ -49,12 +48,17 @@ module.exports = {
                 email,
                 phone,
                 password,
-                role
+                role,
+                deliveryLocation,
+                mpesaNumber
 
             });
             const salt = await bcrypt.genSalt(10);
             customer.password = await bcrypt.hash(password, salt);
             await customer.save();
+            res.json(customer);
+         /*
+
             const payload = {
                 customer: {
                     id: customer.id,
@@ -71,6 +75,7 @@ module.exports = {
                 res.json({ token });
             }
             );
+            */
         } catch (err) {
             console.error(err.message);
             res.status(500).send('Server Error');

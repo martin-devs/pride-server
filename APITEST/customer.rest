@@ -1,0 +1,41 @@
+##CREATE SHOP OWNER
+POST http://localhost:8080/users/customer
+Content-Type: application/json
+
+{
+    "name": "customer2",
+    "password": "admin",
+    "email": "customer2@pride.com",
+    "deliveryLocation": "Nairobi",
+    "role": "CUSTOMER",
+    "phone": "254742734120",
+    "mpesaNumber": "254742734120"
+
+}
+
+###
+##GET ONE, BY ID
+GET http://localhost:8080/users/customer/63bc5152e29d5c15e6aa5d8b
+
+###
+##GET ALL
+GET http://localhost:8080/users/customer
+
+###
+##UPDATE
+PUT http://localhost:8080/users/customer/63bc5152e29d5c15e6aa5d8b
+Content-Type: application/json
+
+{
+    "name": "customerUpdated",
+    "password": "customer",
+    "email": "customer2@pride.com",
+    "role": "customer",
+    "phone": "254742734120"
+}
+    
+
+
+###
+##DELETE
+DELETE http://localhost:8080/users/customer/63bc5152e29d5c15e6aa5d8b

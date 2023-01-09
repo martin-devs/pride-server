@@ -38,4 +38,4 @@ Content-Type: application/json
 
 ###
 ##DELETE
-DELETE http://localhost:8080/users/shopOwner/63bc493e9efac0ebccacf7e5
+DELETE http://localhost:8080/users/shopOwner/63bc4bb521d5b18a03e87a9e
