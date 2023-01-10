@@ -31,3 +31,5 @@ const ShopSchema = mongoose.Schema({
         default: Date.now
     },
 });
+
+module.exports = mongoose.model('shop', ShopSchema);

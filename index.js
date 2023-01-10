@@ -23,10 +23,12 @@ app.use(bodyParser.json());
 //users route
 app.use('/users', require('./routes/users'));
 
-
-
 //products route
 app.use('/products', require('./routes/products'));
+
+//shops route
+app.use('/shops', require('./routes/shops'));
+
 
 //get default route
 app.get('/', (req, res) => {

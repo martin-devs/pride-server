@@ -1,0 +1,44 @@
+##CREATE SHOP OWNER
+POST http://localhost:8080/shops
+Content-Type: application/json
+
+{
+    "name": "shops2",
+    "email": "shops2@pride.com",
+    "locationName": "Nairobi",
+    "location": "google.maps",
+    "role": "shops",
+    "phone": "254742734120",
+    "shopKey": "shops2"
+
+
+}
+
+###
+##GET ONE, BY ID
+GET http://localhost:8080/shops/63bd19eb6ce3bb964a44c5e8
+
+###
+##GET ALL
+GET http://localhost:8080/shops
+
+###
+##UPDATE
+PUT http://localhost:8080/shops/63bd19eb6ce3bb964a44c5e8
+Content-Type: application/json
+
+{
+    "name": "shops2 Update",
+    "email": "shops2@pride.com",
+    "locationName": "Nairobi",
+    "location": "google.maps",
+    "role": "shops",
+    "phone": "254742734120",
+    "shopKey": "shops2"
+}
+    
+
+
+###
+##DELETE
+DELETE http://localhost:8080/shops/63bd19eb6ce3bb964a44c5e8

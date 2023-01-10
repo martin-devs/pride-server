@@ -1,5 +1,5 @@
 //shop controller
-const ShopSchema = require('../models/shop');
+const ShopSchema = require('../models/Shop');
 
 //import bcrypt
 const bcrypt = require('bcryptjs');
@@ -37,9 +37,7 @@ module.exports = {
     createShop: async (req, res) => {
         const { name, email, phone, shopId, locationName, location, shopKey } = req.body;
         try {
-            let shop = await ShopSchema.findOne({
-                    email: email
-                });
+            let shop = await ShopSchema.findOne({ shopId: shopId });
             if (shop) {
                 return res
                     .status(400)
