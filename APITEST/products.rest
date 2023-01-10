@@ -1,0 +1,46 @@
+##CREATE PRODUCTS
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+    "name": "products2",
+    "price": 200,
+    "description": "products2",
+    "category": "products",
+    "shopId": "products2",
+    "identifier":"P01",
+    "countInStock": 10,
+    "image":"image.com/0",
+    "shopId": "63bd19eb6ce3bb964a44c5e8"
+}
+
+###
+##GET ONE, BY ID
+GET http://localhost:8080/products/63bd1de7a27c7d47cd726339
+
+###
+##GET ALL
+GET http://localhost:8080/products
+
+###
+##UPDATE
+PUT http://localhost:8080/products/63bd1df1a27c7d47cd72633c
+Content-Type: application/json
+
+{
+    "name": "products2 Update",
+    "price": 200,
+    "description": "products2",
+    "category": "products",
+    "shopId": "products2",
+    "identifier":"P01",
+    "countInStock": 10,
+    "image":"image.com/0",
+    "shopId": "63bd19eb6ce3bb964a44c5e8"
+}
+    
+
+
+###
+##DELETE
+DELETE http://localhost:8080/products/63bd1df1a27c7d47cd72633c

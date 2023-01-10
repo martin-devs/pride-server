@@ -1,5 +1,0 @@
-//get products from the database
-
-GET http://localhost:8080/products/
-
-###

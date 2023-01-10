@@ -23,9 +23,22 @@ module.exports = {
         }
     },
     createProduct: async (req, res) => {
-        const product = new Product({
+        //unique identifier field
+        const product= await Product.findOne({identifier:req.body.identifier});
+        if(product){
+            return res.status(400).json({msg:'Product already exists'});
+        }
+        product = new Product({
             name: req.body.name,
-            price: req.body.price
+            price: req.body.price,
+            description: req.body.description,
+            image: req.body.image,
+            category: req.body.category,
+            countInStock: req.body.countInStock,
+            shopId: req.body.shopId,
+            identifier: req.body.identifier,
+            
+
         });
         try {
             const savedProduct = await product.save();
