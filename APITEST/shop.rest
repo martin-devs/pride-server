@@ -21,7 +21,7 @@ Content-Type: application/json
 
 ###
 ##GET ONE, BY ID
-GET http://localhost:8080/shops/63bd19eb6ce3bb964a44c5e8
+GET http://localhost:8080/shops/63cc26d28a15c8ade516afe1
 
 ###
 ##GET ALL
