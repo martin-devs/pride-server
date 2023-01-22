@@ -5,11 +5,12 @@ connectDB()
 
 module.exports= {
     addCode:async(req, res)=>{
-        const {skincode, products}=req.body
+        const {skincode, products, description}=req.body
         try{
             const result= await Code.create({
                 skincode:skincode,
-                products:products
+                products:products,
+                description: description
             })
             res.json(result)
 

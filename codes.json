@@ -1,0 +1,115 @@
+[
+    {
+      "_id": "632819c8affc8465b8158868",
+      "skincode": "111",
+      "products": [
+        "M03",
+        "C07",
+        "T05",
+        "M02",
+        "T08"
+      ],
+      "description":"Write the description here and for all the others",
+      "__v": 0
+    },
+    {
+      "_id": "63281a06affc8465b815886a",
+      "skincode": "110",
+      "products": [
+        "M08",
+        "C03",
+        "T06"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "63281a32affc8465b815886c",
+      "skincode": "101",
+      "products": [
+        "M04",
+        "C10"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "63281a54affc8465b815886e",
+      "skincode": "100",
+      "products": [
+        "C11"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "63281a7baffc8465b8158870",
+      "skincode": "011",
+      "products": [
+        "M05",
+        "C01",
+        "T03"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "63281a95affc8465b8158872",
+      "skincode": "010",
+      "products": [
+        "M06"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "63281a95affc8465b8158874",
+      "skincode": "010",
+      "products": [
+        "M06"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "63281a95affc8465b8158876",
+      "skincode": "010",
+      "products": [
+        "M06"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "63281aa5affc8465b8158878",
+      "skincode": "001",
+      "products": [],
+      "__v": 0
+    },
+    {
+      "_id": "63281aa9affc8465b815887a",
+      "skincode": "000",
+      "products": [],
+      "__v": 0
+    },
+    {
+      "_id": "63281ad7affc8465b815887c",
+      "skincode": "1011",
+      "products": [
+        "M07",
+        "T07"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "63281aeeaffc8465b815887e",
+      "skincode": "1010",
+      "products": [
+        "M01",
+        "T04"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "63281b2caffc8465b8158880",
+      "skincode": "1000",
+      "products": [
+        "C06",
+        "T02"
+      ],
+      "__v": 0
+    }
+  ]

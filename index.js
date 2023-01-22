@@ -29,6 +29,9 @@ app.use('/products', require('./routes/products'));
 //shops route
 app.use('/shops', require('./routes/shops'));
 
+//codes route
+app.use('/codes', require('./routes/codes'));
+
 
 //get default route
 app.get('/', (req, res) => {
