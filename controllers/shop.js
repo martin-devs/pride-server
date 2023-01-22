@@ -35,9 +35,9 @@ module.exports = {
     },
     //create
     createShop: async (req, res) => {
-        const { name, email, phone, shopId, locationName, location, shopKey } = req.body;
+        const { name, email, phone, locationName, location, shopKey } = req.body;
         try {
-            let shop = await ShopSchema.findOne({ shopId: shopId });
+            let shop = await ShopSchema.findOne({ shopKey: shopKey });
             if (shop) {
                 return res
                     .status(400)
@@ -47,7 +47,6 @@ module.exports = {
                 name,
                 email,
                 phone,
-                shopId,
                 locationName,
                 location,
                 shopKey

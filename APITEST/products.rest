@@ -3,20 +3,26 @@ POST http://localhost:8080/products
 Content-Type: application/json
 
 {
-    "name": "products2",
-    "price": 200,
-    "description": "products2",
-    "category": "products",
-    "shopId": "products2",
-    "identifier":"P01",
+      "identifier": "C01",
+      "name": "EVEN TRUE Pore Refining Gel Cleanser ",
+      "price": 499,
+      "image": "https://prideimages.s3.amazonaws.com/cleansers/C01.png",
+      "description": "This lightweight foaming cleanser gently removes impurities and excess oil without stripping or over-drying. An exclusive combination of pore-clarifying ingredients purify skin and minimizes pores for a smoother appearance cleanse skin and minimize pores for a smoother appearance. Antioxidants Green Tea and Vitamin E help protect against damaging environmental elements while skin-brightening ingredients like Turmeric promote a glowing, healthy complexion.Approved for all skin types.",
+      "category": "cleansers",
     "countInStock": 10,
-    "image":"image.com/0",
-    "shopId": "63bd19eb6ce3bb964a44c5e8"
+    "shopId": "63cc26d28a15c8ade516afe1"
 }
+###
+"Radiant Beauty Co.": 63cc26d28a15c8ade516afe1
+"Glow by Nature" : 63cc277a3df82e5e47ca867c
+"Luxe Locks Beauty": 63cc285f3df82e5e47ca867f
+
+###
+
 
 ###
 ##GET ONE, BY ID
-GET http://localhost:8080/products/63bd1de7a27c7d47cd726339
+GET http://localhost:8080/products/63cc9296ea394f70d8d09cc7
 
 ###
 ##GET ALL
@@ -43,4 +49,9 @@ Content-Type: application/json
 
 ###
 ##DELETE
-DELETE http://localhost:8080/products/63bd1df1a27c7d47cd72633c
+DELET http://localhost:8080/products/63cc924fea394f70d8d09cc4
+
+###
+
+//get by page and limit
+GET http://localhost:8080/products/page/1/limit/1

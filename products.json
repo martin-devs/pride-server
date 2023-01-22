@@ -1,0 +1,602 @@
+[
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6322af7cb6cfb9a17bedb540",
+      "identifier": "C01",
+      "name": "EVEN TRUE Pore Refining Gel Cleanser ",
+      "price": 499,
+      "image": "https://prideimages.s3.amazonaws.com/cleansers/C01.png",
+      "description": "This lightweight foaming cleanser gently removes impurities and excess oil without stripping or over-drying. An exclusive combination of pore-clarifying ingredients purify skin and minimizes pores for a smoother appearance cleanse skin and minimize pores for a smoother appearance. Antioxidants Green Tea and Vitamin E help protect against damaging environmental elements while skin-brightening ingredients like Turmeric promote a glowing, healthy complexion.Approved for all skin types.",
+      "category": "cleansers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6322b1a1b6cfb9a17bedb544",
+      "identifier": "C03",
+      "name": "XeraCalm A.D Lipid-Replenishing Cleansing Oil",
+      "price": 799,
+      "image": "https://prideimages.s3.amazonaws.com/cleansers/C03.png",
+      "description": "Avène's ultra-gentle cleanser is formulated with eczema in mind, though it's great for regularly dry or itchy skin, too.",
+      "category": "cleansers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6322b215b6cfb9a17bedb546",
+      "identifier": "C04",
+      "name": "Hydrating Facial Cleanser for Normal to Dry Skin",
+      "price": 899,
+      "image": "https://prideimages.s3.amazonaws.com/cleansers/C04.png",
+      "description": "Three cheers for CeraVe. The drugstore staple uses ceramides and hyaluronic acid in its hydrating cleanser—a moisture-attracting ingredient that complements the whole face wash process",
+      "category": "cleansers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6322b24eb6cfb9a17bedb548",
+      "identifier": "C05",
+      "name": "Cetaphil's Gentle Skin Cleanser",
+      "price": 1099,
+      "image": "https://prideimages.s3.amazonaws.com/cleansers/C05.png",
+      "description": "The Cetaphil Gentle Skin Cleanser lives up to its name in that it's notably gentle with only eight ingredients, its main one being water. It's great for use on all skin types, has a mild and non-irritating formula, and will soften your skin for a healthy glow. Cetaphil also won't clog your pores, thanks to its non-comedogenic and non-alkaline formula. It's also fragrance- and soap-free, too, so it's almost like using pure water and lotion mixed together.",
+      "category": "cleansers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6322b2b4b6cfb9a17bedb54a",
+      "identifier": "C10",
+      "name": "Tula Replenishing Cleansing Oil",
+      "price": 1499,
+      "image": "https://prideimages.s3.amazonaws.com/cleansers/C10.png",
+      "description": "Key ingredients: Ceramides, probiotic extracts, rice bran oil, arctic winged kelp. Tula Replenishing Cleansing Oil removes makeup easily and cleanses more. Infused with probiotic extracts and natural oils, the product will effectively dissolve makeup and built-on debris from the day. The mixture of ceramides and arctic winged kelp (yes, algae) aids in moisture retention and skin-soothing, too.",
+      "category": "cleansers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6322b373b6cfb9a17bedb54c",
+      "identifier": "C11",
+      "name": "Fresh Soy Makeup Removing Face Wash",
+      "price": 599,
+      "image": "https://prideimages.s3.amazonaws.com/cleansers/C11.png",
+      "description": "Key ingredients: Soy, cucumber, rosewater, borage seed oil.The Fresh Soy Makeup Removing Face Wash is recommended for all skin types and is rich in soy amino acids to help maintain skin elasticity. Calming cucumber extract and borage seed oil help soothe the skin, while the rosewater helps to balance and calm the skin.  The Fresh wash doesn't strip your skin either and is formulated vegan and void of gluten and parabens. And, with it targeting dull, dry, and uneven textures, you'll notice vivacious skin before you know it.",
+      "category": "cleansers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6322b4f9b6cfb9a17bedb550",
+      "identifier": "C07",
+      "name": "Naturium's Niacinamide Cleansing Gel",
+      "price": 499,
+      "image": "https://prideimages.s3.amazonaws.com/cleansers/C07.png",
+      "description": "Key ingredients: Glycerin, niacinamide, hyaluronic acidSensitive skin is one thing, but sensitive and dry skin is another. Naturium Niacinamide Cleansing Gel 3% — a vegan pore-minimizer that contains both glycerin and niacinamide to effectively replenish your skin's surface.For dry skin, a face wash with glycerin, ceramides, or niacinamide can help to repair or protect the skin against environmental stressors. Niacinamide helps to restore your skin's barrier, while glycerin is rich in nutrients and a humectant that draws water back into the skin for ultimate hydration. Natrium is cruelty, gluten, and paraben-free. Dermatologist-tested",
+      "category": "cleansers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6322b56bb6cfb9a17bedb552",
+      "identifier": "C08",
+      "name": "Farmacy Whipped Greens Foaming Cleanser",
+      "price": 2000,
+      "image": "https://prideimages.s3.amazonaws.com/cleansers/C08.png",
+      "description": "Key ingredients: Beta hydroxy, glycerin, moringa seed extract, moringa water, papaya enzyme, green clay, sodium PCA. The Farmacy Whipped Greens Foaming Cleanser is wonderful for oily skin and not just because it's oil-free — it's also soap-free, super creamy, and uniquely contains moringa seed extract and moringa water to purify and refresh the skin from debris.It also contains papaya enzyme and green clay ingredients that help detox, absorb surface oil, exfoliate, clean pores, and remove buildup. Sodium PCA also aids in maintaining skin hydration. It's also cruelty-free, gluten-free, and comes in recyclable packaging.",
+      "category": "cleansers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6322b5d6b6cfb9a17bedb554",
+      "identifier": "C09",
+      "name": "Superfood Antioxidant Cleanser",
+      "price": 199,
+      "image": "https://prideimages.s3.amazonaws.com/cleansers/C08.png",
+      "description": "Key ingredients: Glycerin, kale, spinach, green tea.Superfood Antioxidant Cleanser is a powerful blend of all the healthful green ingredients with overarching health benefits: kale to give your skin an extra glow, spinach to soothe the skin, and green tea to fight visible signs of aging. It is also vegan; cruelty-, gluten-, and paraben-free, and comes in recyclable packaging for an easy and sustainable toss.",
+      "category": "cleansers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "632956b10cd519c7ae958dea",
+      "identifier": "M09",
+      "name": "Paula's choice moisturizing lotion",
+      "price": 698,
+      "image": "https://prideimages.s3.amazonaws.com/moisturizers/M09.png",
+      "description": "Fortified with a proprietary blend of brightening peptides and natural citrus extracts to improve skin's radiance and reverse hyper-pigmentation. Enriched with nourishing African-origin oils and butters that help skin retain moisture and protect against environmental damage.",
+      "category": "moisturizers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "632957280cd519c7ae958dec",
+      "identifier": "M01",
+      "name": "La Roche-Posay Toleriane Double Repair Face Moisturizer ",
+      "price": 600,
+      "image": "https://prideimages.s3.amazonaws.com/moisturizers/M01.png",
+      "description": "Contains ceramides, niacinamide, glycerin. If your skin is sensitive, this moisturizer from La Roche Posay is a good option. It  contains a host of the ingredients recommended by the dermatologists, including ceramides, glycerin, and niacinamide. Garshick likes this moisturizer for sensitive skin types in particular, noting the soothing, skin-barrier supporting ingredients. It also has an SPF of 30, which offers an added layer of protection and helps to protect skin from aging further.",
+      "category": "moisturizers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "632957750cd519c7ae958dee",
+      "identifier": "M02",
+      "name": "CeraVe Moisturising Cream",
+      "price": 249,
+      "image": "https://prideimages.s3.amazonaws.com/moisturizers/M02.png",
+      "description": "Contains ceramides, hyaluronic acid, glycerin | Does not contain retinol | Rich cream. This moisturizer helps replenish hyaluronic acid  which is what makes it such an effective skin hydrator and plumper. In addition to being packed with key ingredients, this moisturizer is also fragrance-free, making it suitable for those with sensitive skin, and it doesn't feel greasy.",
+      "category": "moisturizers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "632957e50cd519c7ae958df0",
+      "identifier": "M03",
+      "name": "OLAY Regenerist Micro-Sculpting Cream",
+      "price": 399,
+      "image": "https://prideimages.s3.amazonaws.com/moisturizers/M03.png",
+      "description": "Contains niacinamide, hyaluronic acid, glycerin, peptides | Does not contain retinol | Rich cream.The powerhouse ingredient helps to stop the transfer of melanin pigments to skin cells and also acts as a humectant, preventing additional moisture loss in the skin. It also contains glycerin, hyaluronic acid, and aloe — which work together to hydrate and soothe skin.",
+      "category": "moisturizers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6329586c0cd519c7ae958df2",
+      "identifier": "M04",
+      "name": "Vichy Aqualia Thermal Rich Cream Moisturizer",
+      "price": 700,
+      "image": "https://prideimages.s3.amazonaws.com/moisturizers/M04.png",
+      "description": "Contains hyaluronic acid | Does not contain retinol | Rich cream. contains both humectants and emollientor ingredients that attract and lock in moisture. It is packed with  hyaluronic acid, shea butter, and glycerin making it a good option for those experiencing mild dryness.",
+      "category": "moisturizers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "632958ba0cd519c7ae958df4",
+      "identifier": "M05",
+      "name": "Sweet Chef Ginger + Vitamin C Oil-Free Gel Moisturizer",
+      "price": 659,
+      "image": "null",
+      "description": "For an oil-free moisturizer, this one is surprisingly moisturizing without being too much for those with oily, acne-prone skin, but it's ideal for someone with skin that falls right in the middle and needs a boost of hydration. It also contains vitamin C, ginger, turmeric, niacinamide, and antioxidants to help brighten dark spots",
+      "category": "moisturizers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "632958f90cd519c7ae958df6",
+      "identifier": "M06",
+      "name": "NIVEA Soft Moisturizing Cream",
+      "price": 679,
+      "image": "null",
+      "description": "NIVEA Soft is a highly effective, intensive moisturizing cream for everyday use. The light formula with Vitamin E & Jojoba Oil is quickly absorbed and refreshes the skin. Enjoy the invigorating feeling that leaves your skin soft and supple. Skin compatibility dermatologically approved.  ideal for someone with oily skin",
+      "category": "moisturizers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "632959a50cd519c7ae958df8",
+      "identifier": "M07",
+      "name": "ROSE Ingleton MD Signature Moisturizer",
+      "price": 778,
+      "image": "https://prideimages.s3.amazonaws.com/moisturizers/M07.png",
+      "description": "This smoothing radiance cream features the power of dermatologist-beloved actives like peptides, vitamin C, niacinamide, and barrier-building ceramides along with our glow-boosting Jamaican SuperFruit Blend. The unique silky texture melts into the skin and leaves it feeling smooth without a hint of heaviness. Enjoy soft, supple, youthful-looking skin",
+      "category": "moisturizers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "63295a160cd519c7ae958dfa",
+      "identifier": "M08",
+      "name": "BLK/OPL SKN™ EVEN TRUE Nutritive Skin Moisturizer",
+      "price": 899,
+      "image": "https://prideimages.s3.amazonaws.com/moisturizers/M08.png",
+      "description": "Fortified with a proprietary blend of brightening peptides and natural citrus extracts to improve skin's radiance and reverse hyper-pigmentation. Enriched with nourishing African-origin oils and butters that help skin retain moisture and protect against environmental damage.",
+      "category": "moisturizers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "633a6b0ac1a7e9a85871a63d",
+      "identifier": "M08",
+      "name": "BLK/OPL SKN™ EVEN TRUE Nutritive Skin Moisturizer",
+      "price": 899,
+      "image": "https://prideimages.s3.amazonaws.com/moisturizers/M08.png",
+      "description": "Fortified with a proprietary blend of brightening peptides and natural citrus extracts to improve skin's radiance and reverse hyper-pigmentation. Enriched with nourishing African-origin oils and butters that help skin retain moisture and protect against environmental damage.",
+      "category": "moisturizers",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6342f6d62367504180289ca8",
+      "identifier": "FM02",
+      "name": "Hyper Skin Fade and Glow AHA Mask ",
+      "price": 499,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/FM03.png",
+      "description": "Hyper Skin's Fade and Glow AHA Mask contains a winning combo of two of the most effective AHAs (or alpha hydroxy acids) — five percent glycolic acid and five percent mandelic acid — to gently exfoliate the skin and get rid of congestion. This mask also contains niacinamide and bearberry to fade dark spots and soften the skin. This makes this mask ideal for people who currently have acne-prone skin since it's so decongesting, but it also helps those looking to treat older scars and smoothen their skin.",
+      "category": "facemasks",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6342fb6c449e533e1ebc88b7",
+      "identifier": "FM10",
+      "name": "Then I Met You Rosé Resurfacing Facial Mask",
+      "price": 350,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/FM10.png",
+      "description": "For the perfect mix of high-tech ingredients and tried-and-true favorites, you can't go wrong with Korean skin-care brand Then I Met You. \"With a blend of 6% glycolic and lactic acids, this is a great option for people looking for a light exfoliation along with an antioxidant boost. Containing a new ingredient in the skin-care space — resveratrol, derived from red grapes — the Resurfacing Facial Mask also helps to smoothen the skin over time.",
+      "category": "facemasks",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6342fdc3449e533e1ebc88b9",
+      "identifier": "FM09",
+      "name": "The Inkey List Kaolin Mask",
+      "price": 999,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/FM09.png",
+      "description": "Kaolin Mask by The Inkey List contains a potent combination of both kaolin and smectite clay, this mask sucks up excess oil, especially in acneic skin. Still, it's probably best not to use this type of face mask every day, since that may dry up the skin too much and cause your cells to actually create more oil to help balance the skin out.  ideal for very dry sensitive skin.",
+      "category": "facemasks",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6342fe19449e533e1ebc88bb",
+      "identifier": "FM07",
+      "name": "Summer Fridays Jet Lag Mask",
+      "price": 550,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/FM07.png",
+      "description": "This is a calming mask for skin that's on the more sensitive side and might deal with conditions like eczema or redness. \"Summer Fridays Jet Lag Mask is an anti-inflammatory, hydrating mask that can also be used as a leave-on moisturizer. Glycerin, ceramides, and hyaluronic acid give dry skin a hydration boost, while niacinamide and cucumber help calm the skin of inflammation. ideal for very dry sensitive skin.",
+      "category": "facemasks",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6342fe83449e533e1ebc88bd",
+      "identifier": "FM03",
+      "name": "Kora Organics Turmeric BHA Hydrating Treatment Mask",
+      "price": 550,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/FM07.png",
+      "description": "Kora Organics Turmeric BHA Hydrating Treatment Mask contains plant-based ingredients like rosehip, peppermint, and turmeric that serves as a physical exfoliant containing mineral powder. \"After five to 15 minutes, the instructions to remove the mask include using circular motions to allow for a physical exfoliation.\" This helps to not only clear clogged pores, but also to diminish the appearance of scars and blemishes by removing dead skin cells and debris.",
+      "category": "facemasks",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6342fee2449e533e1ebc88bf",
+      "identifier": "FM01",
+      "name": "Kora Organics Turmeric BHA Hydrating Treatment Mask",
+      "price": 499,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/FM01.png",
+      "description": "When it comes to acne-fighting masks, the GlamGlow Supermud Clearing Treatment is a game-changer. After leaving it on for 10 minutes, you can visibly see the oil drawn out from your pores, and after rinsing, skin is left looking brighter than ever. ideal for oily and sensitive skin",
+      "category": "facemasks",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346d6f285ca1ea1d25b408d",
+      "identifier": "FM05",
+      "name": "Paula's Choice Super Hydrate Overnight Mask",
+      "price": 849,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/FM05.png",
+      "description": "Paula's Choice Super Hydrate Overnight Mask is a great choice for anyone, but especially those with dry and sensitive skin. The cream-gel formula is infused with calming reishi mushroom, soothing algae, shea butter, and glycerin to lock in moisture while you snooze away. Come morning, you'll wake up to plumper, dewier skin. However, you can also use it as a 20-minute wash-off mask depending on your preferences",
+      "category": "facemasks",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346d75485ca1ea1d25b408f",
+      "identifier": "FM08",
+      "name": "Harper Resurfacing Mask",
+      "price": 600,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/FM08.png",
+      "description": "Take the farm-to-skin approach with Tata Harper's Resurfacing Mask, which curbs excess oil and evens skin tone by gently exfoliating. Ideal for both dry and oily skin types",
+      "category": "facemasks",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346d79a85ca1ea1d25b4091",
+      "identifier": "FM04",
+      "name": "Origins Original Skin Retexturizing Mask with Rose Clay",
+      "price": 1099,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/FM04.png",
+      "description": "The Origins Original Skin Retexturizing Mask with Rose Clay  instantly minimizes the appearance of pores and leaves your complexion looking beyond glowy. Ideal for all skin types",
+      "category": "facemasks",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346d7f985ca1ea1d25b4093",
+      "identifier": "FM06",
+      "name": "Sisley Black Rose Cream Mask",
+      "price": 1500,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/FM06.png",
+      "description": "While Sisley's Black Rose Cream Mask exists firmly in 'splurge' territory, the brightening, dewy results of this mask speak for itself.",
+      "category": "facemasks",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346d89b85ca1ea1d25b4095",
+      "identifier": "FM11",
+      "name": "Cookies n clean whipped clay pore detox face mask with salicylic acid + charcoal ",
+      "price": 2000,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/FM06.png",
+      "description": "Lightweight whipped Clay helps extract dirt, oil and impurities Encapsulated Charcoal bursts upon massaging the mask into skin and helps detoxify. Salicylic Acid helps clarify pores Instantly refines skin's texture and minimizes the look of pores Instantly reduces excess oil and fights shine throughout the day. Tested on all skin types, including sensitive.",
+      "category": "facemasks",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346db1585ca1ea1d25b5684",
+      "identifier": "T01",
+      "name": "Bliss Clear Genius Clarifying Toner + Serum",
+      "price": 1099,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/T01.png",
+      "description": "Purifies Pores, Tones, Calms & Clears Skin | with Salicylic Acid, Niacinamide & Witch Hazel | Clean | Cruelty Free | Paraben Free | Vegan | 4.3 o",
+      "category": "toners",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346dd8585ca1ea1d25b7f68",
+      "identifier": "T02",
+      "name": "Skinceutical discoloration defens",
+      "price": 499,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/T02.png",
+      "description": "Discoloration Defense is a layerable, daily-use dark spot corrector clinically proven to reduce the appearance of key types of skin discoloration in all skin tones, including hard-to-treat forms such as stubborn brown patches and post-acne marks. Formulated with 3% tranexamic acid, 1% kojic acid, 5% niacinamide, and 5% HEPES, this latest-generation formula improves the appearance of skin discoloration, brightens skin, and evens skin tone in as early as 2 weeks.",
+      "category": "toners",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346ddf585ca1ea1d25b8995",
+      "identifier": "T03",
+      "name": "fenty skin toner",
+      "price": 2500,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/T03.png",
+      "description": "Niacinamide (a form of vitamin B3): Helps reduce the look of dark spots, even skin tone, and fight excess shine. Barbados Cherry (Acerola): Every one of these tropical cherries is loaded with more vitamin C than an orange. Australian Lemon Myrtle and Witch Hazel Water: Helps reduce oil and refine pores.",
+      "category": "toners",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346de2485ca1ea1d25b8df5",
+      "identifier": "T04",
+      "name": "Garnier Face Toner(",
+      "price": 849,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/T04.png",
+      "description": "This simple soothing toner is packed with Vitamins and skin-loving ingredients. The combination of Chamomile, Witch Hazel, Allantoin and Vitamin B5 provide the perfect Facial Toner to give you the softest skin possible.Simple Soothing Facial Toner enhances your skincare routine with a gentle yet effective toner formula.",
+      "category": "toners",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346de5185ca1ea1d25b9190",
+      "identifier": "T05",
+      "name": "Aloe vera soothing moisturizing tone",
+      "price": 650,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/T05.png",
+      "description": "Aloe Vera contains enzymes, antioxidants, vitamins A and C which can treat burns, acne, dry skin and many other skin issues.",
+      "category": "toners",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346de8985ca1ea1d25b95b1",
+      "identifier": "T06",
+      "name": "Simple soothing moisturizer",
+      "price": 700,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/T06.png",
+      "description": "-Hamamelis Virginiana (Witch Hazel) Distillate, Aloe Barbadensis Leaf Juice. Radiant skin is within reach. This illuminating serum brightens blemishes while Hyaluronic Acid and Chamomile Essential Water plump skin, and vitamin C rejuvenates collagen production. It blends and dries down evenly—all without drying or tacky residue.",
+      "category": "toners",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346deb985ca1ea1d25b98f8",
+      "identifier": "T07",
+      "name": "BLK/OPL EVEN TRUE PHA + BHA Exfoliating ",
+      "price": 1020,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/T07.png",
+      "description": "-Formulated with Salicylic Acid, our PHA + BHA Exfoliating Toner controls oil and reduces blemishes, creating a smooth and poreless canvas for makeup application. Got sensitive skin? Don’t sweat it. Aloe Vera moisturizes and calms, and a blend of PHAs and BHAs gently encourages natural exfoliation. All these benefits, and it’s still mild and safe enough for daily use with all skin types.",
+      "category": "toners",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346def385ca1ea1d25b9d4f",
+      "identifier": "T08",
+      "name": "CeraVe Alcohol-Free Hydrating Tone",
+      "price": 699,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/T08.png",
+      "description": "CeraVe's Alcohol-Free Hydrating Toner for Sensitive Dry Skin for its alcohol-free, non-comedogenic, and fragrance-free formulation. The toner is spiked with hyaluronic acid (great for hydration), niacinamide (known for its ability to improve skin texture, minimize pores, and reduce inflammation), and ceramides (helps skin retain moisture)",
+      "category": "toners",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "6346df2b85ca1ea1d25ba1e7",
+      "identifier": "T09",
+      "name": "-Pixi by Petra Glow Tonic",
+      "price": 400,
+      "image": "https://prideimages.s3.amazonaws.com/facemasks/T09.png",
+      "description": "Pixi by Petra Glow Tonic for as long as we have, you know it's basically magic in a bottle. It's made with hero ingredients — such as glycolic acid, aloe vera, and witch hazel — to minimize the appearance of dark spots and promote clearer, softer skin",
+      "category": "toners",
+      "__v": 0
+    },
+    {
+      "ratings": {
+        "total": 0,
+        "count": 0,
+        "average": 0
+      },
+      "_id": "637503c19e6c70130d56f010",
+      "identifier": "C08",
+      "name": "Farmacy Whipped Greens Foaming Cleanser",
+      "price": 2000,
+      "image": "https://prideimages.s3.amazonaws.com/cleansers/C08.png",
+      "description": "Key ingredients: Beta hydroxy, glycerin, moringa seed extract, moringa water, papaya enzyme, green clay, sodium PCA. The Farmacy Whipped Greens Foaming Cleanser is wonderful for oily skin and not just because it's oil-free — it's also soap-free, super creamy, and uniquely contains moringa seed extract and moringa water to purify and refresh the skin from debris.It also contains papaya enzyme and green clay ingredients that help detox, absorb surface oil, exfoliate, clean pores, and remove buildup. Sodium PCA also aids in maintaining skin hydration. It's also cruelty-free, gluten-free, and comes in recyclable packaging.",
+      "category": "cleansers",
+      "__v": 0
+    }
+  ]

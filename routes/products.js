@@ -9,7 +9,8 @@ const {
     getProduct,
     createProduct,
     updateProduct,
-    deleteProduct
+    deleteProduct,
+    getProductsPageLimit
 } = require('../controllers/products');
 
 //routes
@@ -23,5 +24,9 @@ router.post('/', createProduct);
 router.put('/:id', updateProduct);
 
 router.delete('/:id', deleteProduct);
+
+//get by page and limit
+router.get('/page/:page/limit/:limit', getProductsPageLimit);
+
 
 module.exports = router;

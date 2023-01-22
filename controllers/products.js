@@ -24,7 +24,7 @@ module.exports = {
     },
     createProduct: async (req, res) => {
         //unique identifier field
-        const product= await Product.findOne({identifier:req.body.identifier});
+        let product= await Product.findOne({identifier:req.body.identifier});
         if(product){
             return res.status(400).json({msg:'Product already exists'});
         }
@@ -74,6 +74,16 @@ module.exports = {
         }
     }
 ,
+getProductsPageLimit: async (req, res) => {
+    try {
+        const products = await Product.find()
+            .skip((req.params.page - 1) * req.params.limit)
+            .limit(parseInt(req.params.limit));
+        res.json(products);
+    } catch (err) {
+        res.json({ message: err });
+    }
                     
 
+}
 }

@@ -3,16 +3,21 @@ POST http://localhost:8080/shops
 Content-Type: application/json
 
 {
-    "name": "shops2",
-    "email": "shops2@pride.com",
-    "locationName": "Nairobi",
+    "name": "Luxe Locks Beauty",
+    "email": "mail@luxe.com",
+    "locationName": "Nakuru",
     "location": "google.maps",
     "role": "shops",
     "phone": "254742734120",
-    "shopKey": "shops2"
+    "shopKey": "SHOP3"
 
 
 }
+
+###
+"Radiant Beauty Co.": 63cc26d28a15c8ade516afe1
+"Glow by Nature" : 63cc277a3df82e5e47ca867c
+"Luxe Locks Beauty": 63cc285f3df82e5e47ca867f
 
 ###
 ##GET ONE, BY ID
