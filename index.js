@@ -32,6 +32,9 @@ app.use('/shops', require('./routes/shops'));
 //codes route
 app.use('/codes', require('./routes/codes'));
 
+//auth route
+app.use('/auth', require('./routes/auth'));
+
 
 //get default route
 app.get('/', (req, res) => {
