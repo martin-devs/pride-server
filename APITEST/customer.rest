@@ -5,11 +5,12 @@ Content-Type: application/json
 {
     "name": "customer2",
     "password": "admin",
-    "email": "customer2@pride.com",
+    "email": "customer@pride.com",
     "deliveryLocation": "Nairobi",
     "role": "CUSTOMER",
     "phone": "254742734120",
-    "mpesaNumber": "254742734120"
+    "mpesaNumber": "254742734120",
+    "skincode": "101"
 
 }
 

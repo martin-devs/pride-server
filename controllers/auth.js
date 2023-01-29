@@ -13,6 +13,13 @@ module.exports = {
 
     login: async (req, res) => {
         const { email, password } = req.body;
+        const validate = (user, password) => {
+            const isMatch = bycrypt.compare(password, user.password);
+            if (!isMatch) {
+                return res.status(401).json({ msg: 'Invalid Password' });
+            }
+            res.json(user);
+        }
         try {
             let user = await CustomerSchema.findOne({ email: email
                 });
@@ -29,10 +36,11 @@ module.exports = {
            user = await ShopOwnerSchema.findOne({ email: email
                 });
             if(user){
-                validate(userm, password)
+                validate(user, password)
                 return
             }
-            res.status(400).json({ msg: 'Invalid Credentials' });
+            console.log(user)
+            res.status(404).json({ msg: 'user not found' });
         } catch (err) {
             console.error(err.message);
             res.status(500).send('Server Error');
@@ -41,11 +49,4 @@ module.exports = {
 
 
 
-}
-const validate = (user, password) => {
-    const isMatch = bycrypt.compare(password, user.password);
-    if (!isMatch) {
-        return res.status(400).json({ msg: 'Invalid Credentials' });
-    }
-    res.json(user);
 }

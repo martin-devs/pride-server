@@ -36,7 +36,7 @@ module.exports = {
     },
     //create
     createCustomer: async (req, res) => {
-        const { name, email, phone, password, role, deliveryLocation, mpesaNumber } = req.body;
+        const { name, email, phone, password, role, deliveryLocation, mpesaNumber, skincode } = req.body;
         try {
             let customer = await CustomerSchema.findOne({ email: email
                 });
@@ -50,7 +50,8 @@ module.exports = {
                 password,
                 role,
                 deliveryLocation,
-                mpesaNumber
+                mpesaNumber,
+                skincode
 
             });
             const salt = await bcrypt.genSalt(10);
@@ -84,7 +85,7 @@ module.exports = {
     },
     //update
     updateCustomer: async (req, res) => {
-        const { name, email, phone, password, role } = req.body;
+        const { name, email, phone, password, role, skincode } = req.body;
         //build customer object
         const customerFields = {};
         if (name) customerFields.name = name;
@@ -92,6 +93,8 @@ module.exports = {
         if (phone) customerFields.phone = phone;
         if (password) customerFields.password = password;
         if (role) customerFields.role = role;
+        if (skincode) customerFields.skincode = skincode;
+
         try {
             let customer = await CustomerSchema.findById(req.params.id);
             if (!customer) return res.status(404).json({ msg: 'Customer not found' });

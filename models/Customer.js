@@ -33,7 +33,11 @@ const CustomerSchema = mongoose.Schema({
     role: {
         type: String,
         required: true
-    }
+    },
+    skincode: {
+        type: String,
+        required: true
+    },
 });
 
 module.exports = mongoose.model('Customer', CustomerSchema);
