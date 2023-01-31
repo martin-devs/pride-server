@@ -58,7 +58,7 @@ GET http://localhost:8080/products/page/1/limit/1
 ###
 
 //search
-GET http://localhost:8080/products/search/face
+GET http://localhost:8080/products/search/even
 
 ###
 
