@@ -10,7 +10,10 @@ const {
     createProduct,
     updateProduct,
     deleteProduct,
-    getProductsPageLimit
+    getProductsPageLimit,
+    searchProduct,
+    getProductByCode,
+    getProductByIdentifier
 } = require('../controllers/products');
 
 //routes
@@ -27,6 +30,15 @@ router.delete('/:id', deleteProduct);
 
 //get by page and limit
 router.get('/page/:page/limit/:limit', getProductsPageLimit);
+
+//search product
+router.get('/search/:query', searchProduct);
+
+//find by code
+router.get('/code/:code', getProductByCode);
+
+//by identifier
+// router.get('/identifier/:identifier', getProductByIdentifier);
 
 
 module.exports = router;

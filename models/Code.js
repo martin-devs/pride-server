@@ -12,6 +12,7 @@ const codeSchema = new Schema({
     },
     description : {
         type:String,
+        default: "No description"
     },  
 
     

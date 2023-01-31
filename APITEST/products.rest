@@ -55,3 +55,12 @@ DELET http://localhost:8080/products/63cc924fea394f70d8d09cc4
 
 //get by page and limit
 GET http://localhost:8080/products/page/1/limit/1
+###
+
+//search
+GET http://localhost:8080/products/search/face
+
+###
+
+//by Identifier
+GET http://localhost:8080/products/identifier/C01

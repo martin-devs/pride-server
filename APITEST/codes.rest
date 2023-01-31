@@ -4,10 +4,12 @@ POST http://localhost:8080/codes/create
 Content-Type: application/json
 
 {
-  "skincode": "CODE1",
-  "products": ["1", "2"]
-
-}
+      "skincode": "1000",
+      "products": [
+        "C06",
+        "T02"
+      ]
+      }
 
 ###
 ##GET CODES
@@ -15,4 +17,4 @@ GET http://localhost:8080/codes/
 
 ###
 ##GET CODES BY IDENTIFIER
-GET http://localhost:8080/codes/CODE1
+GET http://localhost:8080/codes/111
