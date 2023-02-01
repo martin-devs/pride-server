@@ -36,7 +36,8 @@ module.exports = {
     },
     //create
     createCustomer: async (req, res) => {
-        const { name, email, phone, password, role, deliveryLocation, mpesaNumber, skincode } = req.body;
+        const { name, email, phone, password,  deliveryLocation, mpesaNumber } = req.body;
+        console.log(req.body)
         try {
             let customer = await CustomerSchema.findOne({ email: email
                 });
@@ -48,10 +49,8 @@ module.exports = {
                 email,
                 phone,
                 password,
-                role,
                 deliveryLocation,
                 mpesaNumber,
-                skincode
 
             });
             const salt = await bcrypt.genSalt(10);

@@ -24,7 +24,7 @@ const CustomerSchema = mongoose.Schema({
     },
     deliveryLocation : {
         type: String,
-        required: true
+        default: 'Nairobi'
     },
     mpesaNumber : {
         type: String,
@@ -32,11 +32,12 @@ const CustomerSchema = mongoose.Schema({
     },
     role: {
         type: String,
-        required: true
+        default: 'CUSTOMER'
     },
     skincode: {
         type: String,
-        required: true
+        default:''
+        
     },
 });
 

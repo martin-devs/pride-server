@@ -95,7 +95,7 @@ searchProduct: async (req, res) => {
     console.log("searching", query)
 
     try{
-        const items= await Product.find({ $text: { $search: query } });
+        const items= await Product.find({ $default: { $search: query} });
         res.json(items)
 
     }
