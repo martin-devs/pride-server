@@ -1,7 +1,11 @@
 //orders route
 const express = require('express');
 const orders = express.Router();
-const  {makeOrder, getOrders} = require ('../controllers/orders');
+const  {makeOrder,
+     getOrders,
+        getOrdersByCustomerId,
+        getOrdersByShopId
+    } = require ('../controllers/orders');
 // const {obtainAccessToken, mpesaExpressInt, confirmation} = require('../middleware/mpesa');
 
 
@@ -12,9 +16,14 @@ const  {makeOrder, getOrders} = require ('../controllers/orders');
 orders.post('/makeorder', makeOrder);
 
 //callback url
-orders.post('/mpesa/confirmation',confirmation)
+// orders.post('/mpesa/confirmation',confirmation)
 
 orders.get('/get/all',getOrders)
 
+//get by customerId
+orders.get('/get/customerId/:id',getOrdersByCustomerId)
 
-module.exports = {orders};
+
+
+
+module.exports = orders;

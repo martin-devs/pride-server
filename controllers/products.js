@@ -95,7 +95,17 @@ searchProduct: async (req, res) => {
     console.log("searching", query)
 
     try{
-        const items= await Product.find({ $default: { $search: query} });
+        const items= await Product.find(
+            {
+              '$search': {
+                'index': 'default',
+                'text': {
+                  'query': '',
+
+                }
+              }
+            }
+          );
         res.json(items)
 
     }

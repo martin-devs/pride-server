@@ -1,0 +1,32 @@
+POST http://localhost:8080/orders/makeorder
+Content-Type: application/json
+
+{
+    "customer_id": "5e9b5b5b5b5b5b5b5b5b5b5c",
+    "products":[{"product_id":"5e9b5b5b5b5b5b5b5b5b5b5b","quantity":2},{"product_id":"5e9b5b5b5b5b5b5b5b5b5b5b","quantity":2}],
+     "count": 2,
+    "subTotal": 100,
+    "shipping": 10,
+    "total": 110
+
+}
+
+
+###
+GET http://localhost:8080/orders/get/all
+
+
+###
+GET http://localhost:8080/orders/get/customerId/5e9b5b5b5b5b5b5b5b5b5b5c
+
+###
+GET http://localhost:8080/orders/get/shopId/63cc26d28a15c8ade516afe1
+
+###
+5e9b5b5b5b5b5b5b5b5b5b5c
+SHOPS
+"Radiant Beauty Co.": 63cc26d28a15c8ade516afe1
+"Glow by Nature" : 63cc277a3df82e5e47ca867c
+"Luxe Locks Beauty": 63cc285f3df82e5e47ca867f
+
+###
