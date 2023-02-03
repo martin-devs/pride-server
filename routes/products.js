@@ -13,7 +13,8 @@ const {
     getProductsPageLimit,
     searchProduct,
     getProductByCode,
-    searchProductByCategory
+    searchProductByCategory,
+    getProductsByCode
 } = require('../controllers/products');
 
 //routes
@@ -39,6 +40,10 @@ router.get('/category/:category/:query', searchProductByCategory);
 
 //find by code
 router.get('/code/:code', getProductByCode);
+
+
+router.get('/code/:code', getProductsByCode);
+
 
 
 

@@ -130,6 +130,35 @@ getProductByCode: async(req, res)=>{
     }
 
 },
+
+getProductsByCode: async(req, res)=>{
+
+    const {code}= req.params;
+    try{
+        Code.find({skincode:code}).then(async (result)=>{
+            const items = await Product.find({identifier:code})
+            res.json(items)
+
+        })
+        .catch((err)=>{
+            res.status(500).json({
+                "Error":err.message
+            })
+            })
+        
+
+    }
+    catch(err){
+        res.status(500).json({
+            "Error":err.message
+        })
+
+    }
+
+},
+
+    
+
 searchProductByCategory: async (req, res) => {
     const {query, category}=req.params;
     console.log("searching", query)
