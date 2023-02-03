@@ -13,7 +13,7 @@ const {
     getProductsPageLimit,
     searchProduct,
     getProductByCode,
-    getProductByIdentifier
+    searchProductByCategory
 } = require('../controllers/products');
 
 //routes
@@ -34,11 +34,12 @@ router.get('/page/:page/limit/:limit', getProductsPageLimit);
 //search product
 router.get('/search/:query', searchProduct);
 
+//search by category
+router.get('/category/:category/:query', searchProductByCategory);
+
 //find by code
 router.get('/code/:code', getProductByCode);
 
-//by identifier
-// router.get('/identifier/:identifier', getProductByIdentifier);
 
 
 module.exports = router;

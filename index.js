@@ -39,6 +39,10 @@ app.use('/auth', require('./routes/auth'));
 //orders
 app.use('/orders', require('./routes/orders'));
 
+//ratings
+
+app.use('/ratings', require('./routes/ratings'));
+
 //get default route
 app.get('/', (req, res) => {
     res.send('Hello World!');

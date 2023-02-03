@@ -95,17 +95,7 @@ searchProduct: async (req, res) => {
     console.log("searching", query)
 
     try{
-        const items= await Product.find(
-            {
-              '$search': {
-                'index': 'default',
-                'text': {
-                  'query': '',
-
-                }
-              }
-            }
-          );
+        const items= await Product.find({$or:[{name:{$regex:query, $options:'i'}},{description:{$regex:query, $options:'i'}}]} );
         res.json(items)
 
     }
@@ -140,9 +130,24 @@ getProductByCode: async(req, res)=>{
     }
 
 },
-// getProductByIdentifier: async(req, res)=>{
+searchProductByCategory: async (req, res) => {
+    const {query, category}=req.params;
+    console.log("searching", query)
 
-// },
+    try{
+        const items= await Product.find({$and:[{category:category},{$or:[{name:{$regex:query, $options:'i'}},{description:{$regex:query, $options:'i'}}]}]} );
+        res.json(items)
+
+    }
+    catch(err){
+        res.status(500).json({
+            "Error":err.message
+        })
+
+    }
+
+} 
+
 
 
 }

@@ -1,0 +1,21 @@
+POST http://localhost:8080/ratings
+Content-Type: application/json
+
+{
+    "userId": "5f9b5b5b5b5b5b5b5b5b5b5k",
+    "productId": "5f9b5b5b5b5b5b5b5b5b5b5c",
+    "rating": 5,
+    "comment": "This is a comment"
+}
+
+
+###
+
+GET http://localhost:8080/ratings
+
+###
+
+GET http://localhost:8080/ratings/63dc9c0ce5076a7f32f19c75
+
+###
+GET http://localhost:8080/ratings/pid/5f9b5b5b5b5b5b5b5b5b5b5c
