@@ -12,6 +12,7 @@ const connectionParams = {
 
 // Async function to connect to the database
 const connectDB = async () => {
+  mongoose.set('strictQuery', true);
   mongoose.connect(url, connectionParams)
     .then(() => {
       console.log('Connected to the database');

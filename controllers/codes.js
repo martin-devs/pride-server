@@ -1,8 +1,6 @@
 const {connectDB} = require('../config/config')
 const Code = require ('../models/Code')
 
-connectDB()
-
 module.exports= {
     addCode:async(req, res)=>{
         const {skincode, products, description}=req.body

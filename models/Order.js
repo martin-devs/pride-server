@@ -1,42 +1,54 @@
 //order model
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const OrderSchema = new mongoose.Schema({
     customer_id: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'user',
-        required: true
+        ref: "user",
+        required: true,
     },
-    products:{
+    products: {
         type: Array,
-        required: true
+        required: true,
     },
     count: {
         type: Number,
-        required: true
+        required: true,
     },
     subTotal: {
         type: Number,
-        required: true
+        required: true,
     },
     shipping: {
         type: Number,
-        required: true
+        required: true,
     },
     total: {
         type: Number,
-        required: true
+        required: true,
     },
-
     status: {
         type: String,
-        default: 'pending'
+        default: "pending",
+    },
+    payment: {
+        status: {
+            type: String,
+            default: "pending", // pending, processing, success, cancelled
+        },
+        MerchantRequestID: {
+            type: String,
+            default: "",
+        },
+        CheckoutRequestID: {
+            type: String,
+            default: "",
+        },
     },
     date: {
         type: Date,
-        default: Date.now
+        default: Date.now,
     },
+});
 
-    })
-
-module.exports = Order = mongoose.model('order', OrderSchema);
+module.exports = Order = mongoose.model("order", OrderSchema);
